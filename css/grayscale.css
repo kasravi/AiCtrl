@@ -145,20 +145,21 @@
   border: 0;
 }
 
-.btn-primary {
+.btn-outline-primary {
+  color: #4db5ff; 
+  width: 100%;
+}
+
+.btn-outline-primary:hover {
   background-color: #4db5ff;
 }
 
-.btn-primary:hover {
-  background-color: #4db5ff;
-}
-
-.btn-primary:focus {
+.btn-outline-primary:focus {
   background-color: #4db5ff;
   color: white;
 }
 
-.btn-primary:active {
+.btn-outline-primary:active {
   background-color: #4db5ff !important;
 }
 
@@ -239,7 +240,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #4db5ff;
+  /* border-bottom: 0.25rem solid #4db5ff; */
 }
 
 .contact-section .card h4 {
@@ -304,7 +305,7 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding-bottom: 4rem;
 }
 
 .info-section {
