@@ -1,205 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>AiCtrl</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>AiCtrl</title>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet" />
+  </head>
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/grayscale.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">AiCtrl</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">AiCtrl</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Save Our Planet, One Building At A Time</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section id="about" class="about-section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Put Machine Intelligence To Good Use</h2>
-          <p class="text-white-50">Buildings sector is responsible for about <a
-              href="https://doi.org/10.1016/j.enbuild.2016.06.089">40 to 70
-              percent</a> of world energy consumption and greenhouse gas emissions. Providing a shelter as the
-            fundamental axiom of our lives, plays a great role in inhabiting the earth in symbiosis with the
-            environment. Both as a treat or as a help. Automatic controlling of the components of residential,
-            commercial, and public spaces can potentially help bringing down this impact while providing dwellers peace
-            of mind and comfort.
-
-            In <span class="text-primary">AiCtrl</span> we aim to use state of the art machine learning algorithms to
-            leverage the potential of automated
-            systems in order to tackle current global environmental issues.</p>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">AiCtrl</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#solutions"
+                >Solutions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects-section">
-    <div class="container">
-
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/Services.png" alt="">
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0">AiCtrl</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            Save Our Planet, One Building At A Time
+          </h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger"
+            >Get Started</a
+          >
         </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Concept</h4>
-            <p class="text-black-50 mb-0">Using AI to train machines that can help us to make decisions about design and
-              control in a smart, low-cost solution is the bridge. Decisions which were conventionally possible solely
-              through expensive, non affordable, and advanced daylight, thermal and energy simulations/optimizations
-              and/or knowledge of concessionaires.
+      </div>
+    </header>
 
-
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">
+              Put Machine Intelligence To Good Use
+            </h2>
+            <p class="text-white-50">
+              Buildings sector is responsible for about
+              <a href="https://doi.org/10.1016/j.enbuild.2016.06.089"
+                >40 to 70 percent</a
+              >
+              of world energy consumption and greenhouse gas emissions.
+              Providing a shelter as the fundamental axiom of our lives, plays a
+              great role in inhabiting the earth in symbiosis with the
+              environment. Both as a treat or as a help. Automatic controlling
+              of the components of residential, commercial, and public spaces
+              can potentially help bringing down this impact while providing
+              dwellers peace of mind and comfort. In
+              <span class="text-primary">AiCtrl</span> we aim to use state of
+              the art machine learning algorithms to leverage the potential of
+              automated systems in order to tackle current global environmental
+              issues.
             </p>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/Anywhere.png" alt="">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/Services.png" alt="" />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Concept</h4>
+              <p class="text-black-50 mb-0">
+                Using AI to train machines that can help us to make decisions
+                about design and control in a smart, low-cost solution is the
+                bridge. Decisions which were conventionally possible solely
+                through expensive, non affordable, and advanced daylight,
+                thermal and energy simulations/optimizations and/or knowledge of
+                concessionaires.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Multi Objective Criteria</h4>
-                <p class="mb-0 text-white-50">Occasionally neglected factor of human comfort is what we care the most in
-                  <span class="text-primary">AiCtrl</span>. In our projects we always ready to go the extra mile to find
-                  the optimum solution based on
-                  multi objective criteria of visual and thermal comfort along with energy saving.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/Anywhere.png" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Multi Objective Criteria</h4>
+                  <p class="mb-0 text-white-50">
+                    Occasionally neglected factor of human comfort is what we
+                    care the most in <span class="text-primary">AiCtrl</span>.
+                    In our projects we always ready to go the extra mile to find
+                    the optimum solution based on multi objective criteria of
+                    visual and thermal comfort along with energy saving.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/TrainingProcess.png" alt="" />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Human Centric Solution</h4>
+                  <p class="mb-0 text-white-50">
+                    <span class="text-primary">AiCtrl</span> addresses the
+                    shortcomings of building automation to save energy while
+                    providing thermal and visual comfort. The trained models
+                    considers the main driving environmental conditions and
+                    their contributions to each component to control the systems
+                    effectively.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/Main.png" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Ecological Awareness</h4>
+                  <p class="mb-0 text-white-50">
+                    Decisions in <span class="text-primary">AiCtrl</span> are
+                    made based on their impact on our environment. Our cloud
+                    based infrastructure not only developed to lower the
+                    complexity of on premise control systems while utilizing the
+                    cutting edge algorithms to control building components
+                    without expensive sensors, but also to minimize consumption
+                    significance which technology has caused.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/TrainingProcess.png" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Human Centric Solution</h4>
-                <p class="mb-0 text-white-50"><span class="text-primary">AiCtrl</span> addresses the shortcomings of
-                  building automation to save energy
-                  while providing thermal and visual comfort.
-                  The trained models considers the main driving environmental conditions and their contributions to each
-                  component to control the systems effectively.
-                </p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
+    <!-- Solutions Section -->
+    <section id="solutions" class="projects-section p-1">
+      <div class="container-fluid">
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5 p-4">
+          <div class="col-xl-5 col-lg-4 mr-4">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="img/aiplantcare.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-3 col-lg-4">
+            <div class="featured-text text-center text-lg-left">
+              <h4>AiPlantCare</h4>
+              <p class="text-black-50 mb-0">
+                <a href="https://www.aiplantcare.com">AiPlantCare</a> is an
+                advance tool for predicting the required natural and
+                supplemental light for various plant species using
+                state-of-the-art simulation models and cloud computing features.
+              </p>
             </div>
           </div>
+          <div class="col-4"></div>
         </div>
-      </div>
-
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/Main.png" alt="">
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Cloud infrastructure</h4>
-                <p class="mb-0 text-white-50">Our cloud based infrastructure and services would lower the complexity of
-                  on premise control systems while utilizing the most advanced and up to date algorithms to control
-                  building components without expensive sensors. </p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5 p-4">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <div class="featured-text-right text-center text-lg-left pt-3">
+              <h4>AiShading</h4>
+              <p class="text-black-50 mb-0">
+                Using AI to train machines that can help us to make decisions
+                about design and control in a smart, low-cost solution is the
+                bridge. Decisions which were conventionally possible solely
+                through expensive, non affordable, and advanced daylight,
+                thermal and energy simulations/optimizations and/or knowledge of
+                concessionaires.
+              </p>
             </div>
           </div>
+          <div class="col-3 ml-4">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/Services.png" alt="" />
+          </div>
+          
         </div>
       </div>
-
-    </div>
-  </section>
-
-  <section id="contact" class="info-section text-center bg-light">
-    <div class="container">
-        <h2 class="mb-12 text-white" style="margin-bottom: 5rem;">Who We Are</h2>
+    </section>
+    <section id="contact" class="info-section text-center bg-light">
+      <div class="container">
+        <h2 class="mb-12 text-white" style="margin-bottom: 5rem">Who We Are</h2>
         <!-- Featured Project Row -->
         <div class="row align-items-top no-gutters mb-4 mb-lg-5">
-          
           <div class="col-sm-12 col-md-4 p-5">
-            <img class="img-fluid mb-1 mb-lg-0" style="width:450px" src="img/ksr.jpg" alt="">
-              <div class="info text-white">
-                <div style="margin-top:3rem;">
-                  <h4 >Morteza Kasravi</h4>
-                  <ul class="mb-0 text-white-50">
-                    <li>Control Engineer</li>
-                    <li>Software Developer</li>
-                    <li>Data Scientist</li>
-                    <li>Machine Learning Expert</li>
-                  </ul>
+            <img
+              class="img-fluid mb-1 mb-lg-0"
+              style="width: 450px"
+              src="img/ksr.jpg"
+              alt=""
+            />
+            <div class="info text-white">
+              <div style="margin-top: 3rem">
+                <h4>Morteza Kasravi</h4>
+                <ul class="mb-0 text-white-50">
+                  <li>Control Engineer</li>
+                  <li>Software Developer</li>
+                  <li>Data Scientist</li>
+                  <li>Machine Learning Expert</li>
+                </ul>
               </div>
             </div>
           </div>
-          
+
           <div class="col-sm-12 col-md-4 p-5">
-            <img class="img-fluid mb-1 mb-lg-0" style="width:450px" src="img/ganji.jpg" alt="">
+            <img
+              class="img-fluid mb-1 mb-lg-0"
+              style="width: 450px"
+              src="img/ganji.jpg"
+              alt=""
+            />
             <div class="info text-white">
-              <div style="margin-top:3rem;">
+              <div style="margin-top: 3rem">
                 <h4>Fazel Ganji</h4>
                 <ul class="mb-0 text-white-50">
                   <li>Doctor of Architecture</li>
@@ -210,11 +310,16 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-sm-12 col-md-4 p-5">
-            <img class="img-fluid mb-1 mb-lg-0" style="width:450px" src="img/masi.png" alt="">
+            <img
+              class="img-fluid mb-1 mb-lg-0"
+              style="width: 450px"
+              src="img/masi.png"
+              alt=""
+            />
             <div class="info text-white">
-              <div style="margin-top:3rem;">
+              <div style="margin-top: 3rem">
                 <h4>Masume Sani</h4>
                 <ul class="mb-0 text-white-50">
                   <li>Front End Intern</li>
@@ -223,12 +328,11 @@
             </div>
           </div>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-
-  <!-- Signup Section -->
-  <!-- <section id="signup" class="signup-section">
+    <!-- Signup Section -->
+    <!-- <section id="signup" class="signup-section">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -247,49 +351,49 @@
     </div>
   </section> -->
 
-  <!-- Contact Section -->
-  <section class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">Kurt-Schumacher-Str. 2<br>DE 67663 Kaiserslautern</div>
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  Kurt-Schumacher-Str. 2<br />DE 67663 Kaiserslautern
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">info@AiCtrl.io</a>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="#">info@AiCtrl.io</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">+49 (162) 876 3717</div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+49 (162) 876 3717</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="social d-flex justify-content-center">
+        <!-- <div class="social d-flex justify-content-center">
         <a href="#" class="mx-2">
           <i class="fab fa-twitter"></i>
         </a>
@@ -300,27 +404,22 @@
           <i class="fab fa-github"></i>
         </a>
       </div> -->
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">Copyright &copy; AiCtrl 2019</div>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; AiCtrl 2019
-    </div>
-  </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
-
-</body>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+  </body>
 </html>
